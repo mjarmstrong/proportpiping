@@ -563,7 +563,7 @@ section {
   padding: 12px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #fff;
+  color: #000;
   background: var(--color-primary);
 }
 
