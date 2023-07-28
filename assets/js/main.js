@@ -96,10 +96,10 @@ document.addEventListener("DOMContentLoaded", () => {
    * Init swiper slider with 1 slide at once in desktop view
    */
   new Swiper(".slides-1", {
-    speed: 800,
+    speed: 1000,
     loop: true,
     autoplay: {
-      delay: 8000,
+      delay: 10000,
       disableOnInteraction: false,
     },
     slidesPerView: "auto",
@@ -118,10 +118,10 @@ document.addEventListener("DOMContentLoaded", () => {
    * Init swiper slider with 3 slides at once in desktop view
    */
   new Swiper(".slides-3", {
-    speed: 800,
+    speed: 1000,
     loop: true,
     autoplay: {
-      delay: 8000,
+      delay: 10000,
       disableOnInteraction: false,
     },
     slidesPerView: "auto",
