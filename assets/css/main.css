@@ -263,7 +263,7 @@ section {
   margin: 0;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .header .logo img {
     max-height: 75px;
   }
