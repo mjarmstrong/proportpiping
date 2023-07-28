@@ -251,7 +251,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 75px;
+  max-height: 64px;
   margin-right: 6px;
 }
 
@@ -261,6 +261,12 @@ section {
   color: #fff;
   font-family: var(--font-secondary);
   margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .header .logo img {
+    max-height: 75px;
+  }
 }
 
 /*--------------------------------------------------------------
