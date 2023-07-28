@@ -2053,6 +2053,10 @@ section {
   font-size: 14px;
 }
 
+.footer a {
+  color: #fff;
+}
+
 .footer .footer-content {
   background-color: var(--color-primary);
   background-size: contain;
