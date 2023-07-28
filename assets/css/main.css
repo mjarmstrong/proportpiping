@@ -294,6 +294,7 @@ section {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.6);
     white-space: nowrap;
+    text-transform: uppercase;
     transition: 0.3s;
   }
 
@@ -507,7 +508,7 @@ section {
     position: absolute;
     content: "";
     width: 50%;
-    background: var(--color-secondary);
+    background: rgba(0,0,0,.75);    
     top: 0;
     bottom: 0;
   }
