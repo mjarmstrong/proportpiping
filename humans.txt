@@ -1,0 +1,11 @@
+/* TEAM */
+
+	Architect: Michael Armstrong
+	Contact: armstrong.m@shaw.ca
+	From: Calgary, Alberta, Canada
+
+/* SITE */
+
+	Language: English
+	Doctype: HTML5
+	IDE: Visual Studio Code
