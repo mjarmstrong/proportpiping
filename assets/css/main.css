@@ -163,7 +163,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #00aeef;
+  background: #c1c3c5;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -172,13 +172,13 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: #fff;
+  color: #000;
   line-height: 0;
 }
 
 .scroll-top:hover {
-  background: var(--color-primary);
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 .scroll-top.active {
