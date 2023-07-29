@@ -2117,8 +2117,10 @@ section {
 }
 
 .footer .social-icon {
-  box-shadow: none;
   background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  box-shadow: none;
   border: 0;
   color: transparent;
   font: 0/0 a;
