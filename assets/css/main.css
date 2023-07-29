@@ -2121,7 +2121,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-primary);
+  background-color: #00aeef;
   color: #fff;
   border-radius: 50px;
 }
