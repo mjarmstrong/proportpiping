@@ -2087,7 +2087,7 @@ section {
 }
 
 .footer .footer-content .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .footer .footer-content .footer-info .logo {
@@ -2205,8 +2205,9 @@ section {
 }
 
 .footer .tagline {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
+  height: 80%;
 }
 
 .skip-link {
