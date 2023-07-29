@@ -2116,24 +2116,28 @@ section {
   color: #fff;
 }
 
-.footer .footer-content .social-links a {
-  font-size: 14px;
-  line-height: 0;
+.footer .social-icon {
+  box-shadow: none;
+  background-color: transparent;
+  border: 0;
+  color: transparent;
+  font: 0/0 a;
+  font-weight: normal;
+  text-shadow: none;
+  box-shadow: none !important;
   display: inline-block;
-  width: 32px;
-  height: 32px;
-  margin-right: 10px;
-  transition: 0.3s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #00aeef;
-  color: #fff;
-  border-radius: 50px;
+  height: 30px;
+  transition: all 0.2s ease-in-out;
+  vertical-align: top;
+  width: 30px;
 }
 
-.footer .footer-content .social-links a:hover {
-  background-color: #38618e;
+.social-icon--facebook {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='45' height='45' viewBox='0 0 45 45' xmlns='http://www.w3.org/2000/svg' fill='%23fff'%3E %3Cpath d='M0 22.13C0 9.91 9.9 0 22.11 0c12.21 0 22.108 9.908 22.108 22.13 0 12.224-9.9 22.132-22.11 22.132C9.9 44.262 0 34.354 0 22.132zm23.676 12.276v-12.04h3.32l.44-4.15h-3.76l.006-2.076c0-1.083.103-1.662 1.656-1.662h2.075v-4.15h-3.32c-3.99 0-5.393 2.013-5.393 5.398v2.49h-2.487v4.15H18.7v12.04h4.976z' fill-rule='evenodd'/%3E %3C/svg%3E");
+}
+
+.social-icon--linkedin {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='45' height='45' viewBox='0 0 45 45' xmlns='http://www.w3.org/2000/svg' fill='%23fff'%3E %3Cpath d='M.364 22.13C.364 9.91 10.264 0 22.474 0 34.683 0 44.58 9.908 44.58 22.13c0 12.224-9.9 22.132-22.11 22.132-12.21 0-22.108-9.908-22.108-22.13zm15.624-3.8h-5.01V33.4h5.01V18.33zm.33-4.662c-.032-1.477-1.088-2.602-2.802-2.602s-2.834 1.125-2.834 2.602c0 1.447 1.087 2.605 2.77 2.605h.03c1.748 0 2.836-1.158 2.836-2.605zm17.74 11.09c0-4.628-2.472-6.782-5.77-6.782-2.66 0-3.85 1.463-4.515 2.49V18.33h-5.01c.065 1.414 0 15.07 0 15.07h5.01v-8.416c0-.45.032-.9.165-1.222.362-.9 1.186-1.832 2.57-1.832 1.814 0 2.54 1.382 2.54 3.407V33.4h5.01v-8.64z' fill-rule='evenodd'/%3E %3C/svg%3E");
 }
 
 .footer .footer-content h4 {
