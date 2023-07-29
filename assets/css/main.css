@@ -2181,14 +2181,8 @@ section {
   color: #fff;
 }
 
-.footer .footer-legal {
-  background: #000;
-  padding: 30px 0;
-}
-
-.footer .footer-legal .copyright {
-  text-align: center;
-  color: #fff;
+.footer .copyright {
+  margin-top: 12px;
 }
 
 .skip-link {
