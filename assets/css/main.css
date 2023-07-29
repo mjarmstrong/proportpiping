@@ -255,8 +255,17 @@ section {
   margin-right: 6px;
 }
 
+.header.sticked .logo img {
+  max-height: 48px;
+}
+
 .header .logo {
   padding-top: 12px;
+}
+
+.header.sticked .logo {
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 @media (min-width: 1200px) {
