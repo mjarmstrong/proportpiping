@@ -2073,6 +2073,7 @@ section {
 .footer .footer-content {
   background-color: var(--color-primary);
   background-size: contain;
+  color: #fff;
   padding: 60px 0 30px 0;
 }
 
