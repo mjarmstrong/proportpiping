@@ -565,10 +565,16 @@ section {
 .hero blockquote {
   color: #fff;
   padding-left: 20px;
-  font-size: 16px;
+  font-size: 17px;
   font-family: var(--font-default);
   border-left: 2px solid var(--color-primary);
   margin: 40px 0;
+}
+
+@media (min-width: 1200px) {
+  .hero blockquote {
+    font-size: 18px;
+  }
 }
 
 .hero .btn-get-started {
