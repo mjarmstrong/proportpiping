@@ -253,11 +253,14 @@ section {
 .header .logo img {
   max-height: 64px;
   margin-right: 6px;
+}
+
+.header .logo {
   padding-top: 12px;
 }
 
 @media (max-width: 1200px) {
-  .header .logo img {
+  .header .logo {
     padding-top: 0;
   }
 }
@@ -2186,4 +2189,39 @@ section {
 .footer .footer-legal .copyright {
   text-align: center;
   color: #fff;
+}
+
+.skip-link {
+  font-size: 16px;
+  font-size: 1rem;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  visibility: visible;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.skip-link,
+.skip-link:active,
+.skip-link:focus,
+.skip-link:hover,
+.skip-link:visited {
+  color: #293339;
+}
+
+.skip-link:focus {
+  display: block;
+  height: 24px;
+  height: 1.5rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  position: static;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
 }
