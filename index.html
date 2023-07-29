@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="cleartype" content="on">
@@ -39,6 +40,7 @@
 
   <link href="assets/css/main.min.css" rel="stylesheet">
 </head>
+
 <body class="page-index">
   <a href="#main" class="skip-link">Skip to main content</a>
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -181,7 +183,7 @@
   <footer id="footer" class="footer">
     <div class="footer-content">
       <div class="container">
-        <div class="row gy-4">
+        <div class="row gy-4" itemscope itemtype="http://schema.org/LocalBusiness">
           <div class="col-lg-9 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center justify-content-xxxl-center">
               <img src="assets/img/logo-footer.png" alt="Proport Piping Design">
@@ -194,12 +196,13 @@
           </div>
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
-            <p>
-              4368 70 St NW <br>
-              Calgary, AB T3B 2K5<br>
-              Canada <br><br>
-              <strong>Phone:</strong> <a href="tel:+14034713443">403-471-3443</a><br>
-              <strong>Email:</strong> <a href="mailto:z.mcneil@proportpiping.com">z.mcneil@proportpiping.com</a><br>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <span itemprop="streetAddress">4368 70 St NW</span><br>
+              <span itemprop="addressLocality">Calgary</span>, <span itemprop="addressRegion">Alberta</span><br>
+              Canada
+            </div>
+            <strong>Phone:</strong> <span itemprop="telephone"><a href="tel:+14034713443">1-(403)-471-3443</a></span><br>
+            <strong>Email:</strong> <span itemprop="email"><a href="mailto:z.mcneil@proportpiping.com">z.mcneil@proportpiping.com</a></span><br>
             </p>
           </div>
         </div>
@@ -225,4 +228,5 @@
 
   <script src="assets/js/main.js"></script>
 </body>
+
 </html>
