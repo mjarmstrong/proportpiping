@@ -2096,7 +2096,7 @@ section {
 }
 
 .footer .footer-content .footer-info .logo img {
-  max-height: 124px;
+  max-height: 164px;
   margin-right: 6px;
 }
 
@@ -2125,6 +2125,7 @@ section {
   color: transparent;
   font: 0/0 a;
   font-weight: normal;
+  margin-right: 8px;
   text-shadow: none;
   box-shadow: none !important;
   display: inline-block;
