@@ -259,7 +259,7 @@ section {
   padding-top: 12px;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .header .logo {
     padding-top: 0;
   }
