@@ -253,6 +253,13 @@ section {
 .header .logo img {
   max-height: 64px;
   margin-right: 6px;
+  padding-top: 12px;
+}
+
+@media (max-width: 1200px) {
+  .header .logo img {
+    padding-top: 0;
+  }
 }
 
 .header .logo h1 {
