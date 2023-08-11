@@ -21,7 +21,7 @@
 /* Colors */
 :root {
   --color-default: #2b180d;
-  --color-primary: #926F16; /*#971934*/
+  --color-primary: #926f16; /*#971934*/
   --color-secondary: #222;
 }
 
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: #82cbed;
+  color: #71706e;
   text-decoration: none;
 }
 
@@ -315,7 +315,7 @@ section {
     justify-content: space-between;
     padding: 15px 0 15px 30px;
     font-family: var(--font-default);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.6);
     white-space: nowrap;
@@ -430,7 +430,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(27, 47, 69, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -510,7 +510,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(27, 47, 69, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 9996;
   }
 }
@@ -600,7 +600,7 @@ section {
 }
 
 .hero .btn-get-started:hover {
-  background: #00aeef;
+  background: #71706E;
 }
 
 .hero .btn-watch-video {
@@ -624,7 +624,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: #82cbed;
+  color: #71706e;
 }
 
 @media (max-width: 640px) {
