@@ -120,10 +120,16 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 500;
   color: #fff;
   font-family: var(--font-secondary);
+}
+
+@media screen and (min-width: 640px) {
+  .breadcrumbs h2 {
+    font-size: 48px;
+  }
 }
 
 .breadcrumbs p {
@@ -325,7 +331,7 @@ section {
     font-family: var(--font-default);
     font-size: 18px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: #fff;
     white-space: nowrap;
     text-transform: uppercase;
     transition: 0.3s;
@@ -342,7 +348,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover > a {
-    color: #fff;
+    color: #D19E1F;
   }
 
   .navbar .dropdown ul {
