@@ -33,6 +33,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  scroll-padding-top: 32px;
+}
+
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -525,7 +529,7 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/pipeline.jpg") top center;
+  background: url("../img/facility-scan-design.png") top center;
   background-size: cover;
   position: relative;
   padding: 120px 0;
@@ -926,159 +930,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Recent Blog Posts Section
---------------------------------------------------------------*/
-.recent-posts .post-box {
-  transition: 0.3s;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-.recent-posts .post-box .post-img {
-  overflow: hidden;
-  position: relative;
-}
-
-.recent-posts .post-box .post-img img {
-  transition: 0.5s;
-}
-
-.recent-posts .post-box .meta {
-  margin-top: 15px;
-}
-
-.recent-posts .post-box .meta .post-date {
-  font-size: 15px;
-  font-weight: 400;
-  color: var(--color-primary);
-}
-
-.recent-posts .post-box .meta .post-author {
-  font-size: 15px;
-  font-weight: 400;
-  color: var(--color-secondary);
-}
-
-.recent-posts .post-box .post-title {
-  font-size: 18px;
-  color: var(--color-secondary);
-  font-weight: 700;
-  margin: 15px 0 0 0;
-  position: relative;
-  transition: 0.3s;
-}
-
-.recent-posts .post-box p {
-  margin: 15px 0 0 0;
-  color: rgba(27, 47, 69, 0.7);
-}
-
-.recent-posts .post-box .readmore {
-  display: flex;
-  align-items: center;
-  font-weight: 600;
-  line-height: 1;
-  transition: 0.3s;
-  margin-top: 15px;
-}
-
-.recent-posts .post-box .readmore i {
-  line-height: 0;
-  margin-left: 4px;
-  font-size: 18px;
-}
-
-.recent-posts .post-box:hover .post-title {
-  color: var(--color-primary);
-}
-
-.recent-posts .post-box:hover .post-img img {
-  transform: scale(1.1);
-}
-
-/*--------------------------------------------------------------
-# Team Section
---------------------------------------------------------------*/
-.team .team-member {
-  overflow: hidden;
-  background: #fff;
-}
-
-.team .team-member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.team .team-member .social {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 40px;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.85);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.team .team-member .social a {
-  transition: color 0.3s;
-  color: #31547c;
-  margin: 0 10px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.team .team-member .social a i {
-  line-height: 0;
-}
-
-.team .team-member .social a:hover {
-  color: var(--color-primary);
-}
-
-.team .team-member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-.team .team-member .member-info {
-  padding: 25px 15px 0 15px;
-  text-align: center;
-}
-
-.team .team-member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: var(--color-secondary);
-}
-
-.team .team-member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #6c757d;
-}
-
-.team .team-member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #6c757d;
-}
-
-.team .team-member:hover .social {
-  opacity: 1;
-}
-
-/*--------------------------------------------------------------
 # Services Cards Section
 --------------------------------------------------------------*/
 .services-cards {
@@ -1112,97 +963,6 @@ section {
 .services-cards .card-item p {
   color: var(--color-secondary);
   margin: 0;
-}
-
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  padding: 30px;
-  margin: 40px 30px;
-  box-shadow: 0px 0 20px rgba(27, 47, 69, 0.1);
-  background: #fff;
-  min-height: 320px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.testimonials .testimonial-item .stars {
-  margin-bottom: 15px;
-}
-
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 auto 15px auto;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  background-color: #e8eff6;
-  opacity: 1;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
-}
-
-.testimonials .swiper-slide {
-  opacity: 0.3;
-}
-
-@media (max-width: 1199px) {
-  .testimonials .swiper-slide-active {
-    opacity: 1;
-  }
-
-  .testimonials .swiper-pagination {
-    margin-top: 0;
-  }
-
-  .testimonials .testimonial-item {
-    margin: 40px 20px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .testimonials .swiper-slide-next {
-    opacity: 1;
-    transform: scale(1.12);
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1526,7 +1286,7 @@ section {
   background-color: var(--color-primary);
   background-size: contain;
   color: #fff;
-  padding: 24px 0 36px 0;
+  padding: 36px 0 24px 0;
 }
 
 .footer .footer-content .footer-info .logo {
@@ -1633,20 +1393,13 @@ section {
   color: #fff;
 }
 
-.footer .copyright {
-  margin-top: 36px;
-}
-
-@media (min-width: 992px) {
-  .footer .copyright {
-    margin-top: 12px;
-  }
-}
-
 .footer .tagline {
   font-size: 18px;
   font-weight: 300;
-  height: 80%;
+}
+
+.footer .copyright {
+  font-size: 14px;
 }
 
 .skip-link {
