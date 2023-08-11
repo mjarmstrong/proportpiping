@@ -772,6 +772,10 @@ section.about {
   background: #f7f9fc;
 }
 
+.about .section-header {
+  padding-bottom: 0;
+}
+
 /*--------------------------------------------------------------
 # Services List Section
 --------------------------------------------------------------*/
