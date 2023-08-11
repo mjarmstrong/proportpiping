@@ -44,88 +44,69 @@
 <body class="page-contact">
   <a href="#main" class="skip-link">Skip to main content</a>
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between" itemscope
+      itemtype="http://schema.org/LocalBusiness">
+      <span class="visually-hidden" itemprop="name">Proport Piping Design</span>
+      <a itemprop="url" href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/logo-white.png" alt="Proport Piping Design Logo">
-        <!-- <h1 class="d-flex align-items-center">Proport Piping Design</h1> -->
       </a>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Our Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+        <ul role="menu">
+          <li role="presentation"><a href="index.html" class="active" role="menuitem">Home</a></li>
+          <li role="presentation"><a href="index.html#why-us" role="menuitem">What We Do</a></li>
+          <li role="presentation"><a href="index.html#services-list" role="menuitem">Our Services</a></li>
+          <li role="presentation"><a href="contact.html" role="menuitem">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
-
   <main id="main">
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/contact-header.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/contact-header.png');">
       <div class="container position-relative d-flex flex-column align-items-center">
-
-        <h2>Contact</h2>
-        <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Contact</li>
-        </ol>
-
+        <h2>Contact us</h2>
+        <p>Contact us to learn more about how we can reduce your project costs and enhance safety measures.</p>
       </div>
-    </div><!-- End Breadcrumbs -->
-
-    <!-- ======= Contact Section ======= -->
+    </div>
     <section id="contact" class="contact">
       <div class="container position-relative" data-aos="fade-up">
-
         <div class="row gy-4 d-flex justify-content-end">
-
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-
+            <div class="info-item d-flex">
+              <i class="bi bi-phone flex-shrink-0"></i>
+              <div>
+                <h4>Call:</h4>
+                <p><a href="tel:+14034713443">403.471.3443</a></p>
+              </div>
+            </div>
+            <div class="info-item d-flex">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h4>Email:</h4>
+                <p><a href="mailto:z.mcneil@proportpiping.com">z.mcneil@proportpiping.com</a></p>
+              </div>
+            </div>
             <div class="info-item d-flex">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4>Location:</h4>
                 <p>4368 70 St NW, Calgary, AB T3B 2K5</p>
               </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex">
-              <i class="bi bi-phone flex-shrink-0"></i>
-              <div>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
-
+            </div>
           </div>
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Name or company name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message - add any questions you might have here" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -134,16 +115,11 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-
-          </div><!-- End Contact Form -->
-
+          </div>
         </div>
-
       </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
+    </section>
+  </main>
   <footer id="footer" class="footer">
     <div class="footer-content">
       <div class="container">
@@ -168,8 +144,7 @@
               <span itemprop="addressLocality">Calgary</span>, <span itemprop="addressRegion">Alberta</span>,
               Canada
             </div>
-            <strong>Phone:</strong> <span itemprop="telephone"><a
-                href="tel:+14034713443">403.471.3443</a></span><br>
+            <strong>Phone:</strong> <span itemprop="telephone"><a href="tel:+14034713443">403.471.3443</a></span><br>
             <strong>Email:</strong> <span itemprop="email"><a
                 href="mailto:z.mcneil@proportpiping.com">z.mcneil@proportpiping.com</a></span>
             <div class="social-links d-flex mt-3 justify-content-xxxl-center">
@@ -200,9 +175,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
