@@ -774,6 +774,11 @@ section.about {
 
 .about .section-header {
   padding-bottom: 0;
+  text-align: left;
+}
+
+.about .section-header h2::after {
+  margin: 0;
 }
 
 /*--------------------------------------------------------------
