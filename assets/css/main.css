@@ -837,11 +837,13 @@ section.about {
 
 .call-to-action p {
   color: #fff;
+  font-size: 20px;
   margin-bottom: 25px;
 }
 
 .call-to-action ul {
   color: #fff;
+  font-size: 18px;
 }
 
 .call-to-action .cta-btn {
