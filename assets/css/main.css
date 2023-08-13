@@ -846,6 +846,12 @@ section.about {
   font-size: 18px;
 }
 
+@media (min-width: 1024px) {
+  .call-to-action ul {
+    column-count: 2;
+  }
+}
+
 .call-to-action .cta-btn {
   font-family: var(--font-default);
   font-weight: 500;
