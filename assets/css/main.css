@@ -1311,7 +1311,7 @@ section.about {
 }
 
 .footer .footer-content {
-  background-color: var(--color-primary);
+  background-color: #000;
   background-size: contain;
   color: #fff;
   padding: 36px 0 24px 0;
