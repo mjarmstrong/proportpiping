@@ -157,7 +157,6 @@ section {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
-  font-family: var(--font-secondary);
 }
 
 @media screen and (min-width: 640px) {
