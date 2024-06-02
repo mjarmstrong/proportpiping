@@ -776,6 +776,7 @@ section {
 }
 
 .about .content p {
+  line-height: 1.75;
   margin: 16px 0;
 }
 
