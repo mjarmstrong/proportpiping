@@ -397,7 +397,7 @@ section {
   .navbar .dropdown ul a {
     padding: 10px 20px;
     font-size: 15px;
-    text-transform: none;
+    text-transform: uppercase;
     color: var(--color-secondary);
   }
 
