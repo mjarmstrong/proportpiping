@@ -12,4 +12,4 @@ Disallow: /login/
 Disallow: /logout/
 Disallow: /search/
 
-Sitemap: https://proportpiping.com/sitemap.xml
+Sitemap: https://proportdesign.com/sitemap.xml
