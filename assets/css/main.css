@@ -1,7 +1,6 @@
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Raleway", sans-serif;
 }
@@ -605,6 +604,15 @@ section {
   font-size: 31px;
   font-weight: 700;
   line-height: 1.2;
+  color: #fff;
+  font-family: var(--font-secondary);
+}
+
+.hero h1,
+.hero h2,
+.hero h3,
+.hero h4,
+.hero h5 {
   color: #fff;
   font-family: var(--font-secondary);
 }
