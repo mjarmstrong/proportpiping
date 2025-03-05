@@ -600,9 +600,10 @@ section {
 }
 
 .hero h1 {
+  color: #fff;
+  font-size: 2.6rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #fff;
   font-family: var(--font-secondary);
 }
 
