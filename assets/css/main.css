@@ -599,6 +599,13 @@ section {
   }
 }
 
+.hero h1 {
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  font-family: var(--font-secondary);
+}
+
 .hero h2 {
   margin: 0;
   font-size: 31px;
