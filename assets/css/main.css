@@ -684,7 +684,8 @@ section {
   }
 
   .hero-section.commercial-section .hero-content {
-    padding-bottom: 1rem !important;
+    padding-bottom: 0 !important;
+    padding-top: 3.5rem !important;
   }
 }
 
@@ -694,7 +695,7 @@ section {
   }
 
   .hero-content h2 {
-    font-size: 1.55rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
@@ -706,6 +707,20 @@ section {
   .hero .btn-get-started {
     font-size: 14px;
     padding: 10px 25px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-section {
+    height: 45vh;
+  }
+
+  .hero-section.commercial-section {
+    height: 55vh;
+  }
+
+  .hero-section.oil-gas-section {
+    height: 45vh;
   }
 }
 
