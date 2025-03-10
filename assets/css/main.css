@@ -285,7 +285,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 64px;
+  max-height: 52px;
   margin-right: 6px;
 }
 
@@ -674,6 +674,18 @@ section {
   .hero-section {
     height: 45vh;
   }
+
+  .hero-section.commercial-section {
+    height: 47vh;
+  }
+
+  .hero-section.oil-gas-section {
+    height: 40vh;
+  }
+
+  .hero-section.commercial-section .hero-content {
+    padding-bottom: 1rem !important;
+  }
 }
 
 @media (max-width: 576px) {
@@ -682,7 +694,7 @@ section {
   }
 
   .hero-content h2 {
-    font-size: 1.75rem;
+    font-size: 1.55rem;
     margin-bottom: 1rem;
   }
 
