@@ -5,23 +5,39 @@
   <meta http-equiv="cleartype" content="on">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Oil & Gas Facility Design & 3D Scanning Services | Proport Design</title>
-  <meta property="og:title" content="Oil & Gas Facility Design & 3D Scanning Services | Proport Design">
-  <meta name="twitter:title" content="Oil & Gas Facility Design & 3D Scanning Services | Proport Design">
+  <title>Oil & Gas Services - Proport Design | Advanced 3D Scanning Solutions</title>
+  <meta property="og:title" content="Oil & Gas Services - Proport Design | Advanced 3D Scanning Solutions">
+  <meta name="twitter:title" content="Oil & Gas Services - Proport Design | Advanced 3D Scanning Solutions">
   <link rel="canonical" href="https://proportdesign.com/oil-and-gas.html">
   <meta property="og:url" content="https://proportdesign.com/oil-and-gas.html">
   <meta name="twitter:url" content="https://proportdesign.com/oil-and-gas.html">
   <meta property="og:site_name" content="Proport Design">
   <meta property="og:type" content="website">  
-  <meta name="description" content="Proport Design provides advanced 3D scanning and facility design services for the oil & gas industry. Enhance safety, efficiency, and compliance with precision-driven solutions.">
-  <meta property="og:description" content="Proport Design provides advanced 3D scanning and facility design services for the oil & gas industry. Enhance safety, efficiency, and compliance with precision-driven solutions.">
-  <meta name="twitter:description" content="Proport Design provides advanced 3D scanning and facility design services for the oil & gas industry. Enhance safety, efficiency, and compliance with precision-driven solutions.">
+  <meta name="description" content="Explore Proport Design's advanced 3D scanning solutions for oil & gas facilities. Our technology ensures precise measurements and efficient project execution.">
+  <meta property="og:description" content="Explore Proport Design's advanced 3D scanning solutions for oil & gas facilities. Our technology ensures precise measurements and efficient project execution.">
+  <meta name="twitter:description" content="Explore Proport Design's advanced 3D scanning solutions for oil & gas facilities. Our technology ensures precise measurements and efficient project execution.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#926f16">
+
+  <!-- Resource Hints -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="assets/css/main.min.css" as="style">
+  <link rel="preload" href="assets/js/main.js" as="script">
+  <link rel="preload" href="assets/img/logo-white.png" as="image">
 
   <!-- Favicons -->
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,6 +53,32 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/css/main.min.css" rel="stylesheet">
 
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Oil & Gas Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Proport Design",
+        "url": "https://proportdesign.com"
+      },
+      "description": "Advanced 3D scanning technology services for oil & gas facilities, offering precise measurements and efficient project execution.",
+      "areaServed": {
+        "@type": "City",
+        "name": "Calgary",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Alberta",
+          "addressCountry": "Canada"
+        }
+      },
+      "serviceType": "3D Scanning",
+      "category": "Oil & Gas"
+    }
+  </script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFZMJ12S53">
   </script>
@@ -49,7 +91,7 @@
   </script>
 </head>
 
-<body class="page-index">
+<body class="page-oil-and-gas">
   <a href="#main" class="skip-link">Skip to main content</a>
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between" itemscope
@@ -272,7 +314,7 @@
                 safety measures.</p>
             </div>
             <div class="copyright mt-5">
-              &copy; Copyright <strong><span>Proport Design</span></strong>. All Rights Reserved
+              &copy; Copyright <strong><span id="copyright-year">2024</span></strong>. All Rights Reserved
             </div>
           </div>
           <div class="col-lg-3 offset-lg-1 col-md-12 footer-contact">
@@ -295,18 +337,23 @@
     </div>
   </footer>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top">
+    <i class="bi bi-arrow-up-short" aria-hidden="true"></i>
+  </a>
 
-  <div id="preloader"></div>
+  <div id="preloader" role="status" aria-label="Loading..."></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/vendor/aos/aos.js" defer></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
+  <script>
+    // Update copyright year automatically
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>
