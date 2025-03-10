@@ -558,93 +558,55 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/pipeline-header.jpg") top center;
-  background-size: cover;
   position: relative;
-  padding: 120px 0;
+  padding: 0;
   z-index: 3;
+  overflow: hidden;
 }
 
-.hero.hero-construction {
+.hero-section {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  min-height: 100vh;
-  background: url("../img/construction-heading.jpg") top center;
+  height: 100%;
+  background-position: center;
   background-size: cover;
 }
 
-@media (min-width: 1034px) {
-  .hero:after {
-    position: absolute;
-    content: "";
-    width: 50%;
-    background: rgba(0, 0, 0, 0.75);
-    top: 0;
-    bottom: 0;
-  }
-}
-
-.hero:before {
-  position: absolute;
-  content: "";
-  background: rgba(0, 0, 0, 0.7);
-  inset: 0;
-}
-
-@media (max-width: 1034px) {
-  .hero:before {
-    background: rgba(0, 0, 0, 0.75);
-  }
-}
-
-.hero .container {
+.hero-content {
+  position: relative;
   z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-@media (min-width: 1365px) {
-  .hero {
-    background-attachment: fixed;
-  }
-}
-
-.hero h1 {
-  color: #fff;
-  font-size: 2.6rem;
+.hero-content h2 {
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1.2;
-  font-family: var(--font-secondary);
-}
-
-.hero h2 {
-  margin: 0;
-  font-size: 31px;
-  font-weight: 700;
-  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   color: #fff;
   font-family: var(--font-secondary);
 }
 
-.hero h1,
-.hero h2,
-.hero h3,
-.hero h4,
-.hero h5 {
+.hero-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   color: #fff;
-  font-family: var(--font-secondary);
-}
-
-.hero blockquote {
-  color: #fff;
-  padding-left: 20px;
-  font-size: 17px;
-  font-family: var(--font-default);
-  border-left: 2px solid var(--color-primary);
-  margin: 40px 0;
-}
-
-@media (min-width: 1200px) {
-  .hero blockquote {
-    font-size: 18px;
-  }
+  margin-bottom: 2rem;
 }
 
 .hero .btn-get-started {
@@ -664,39 +626,74 @@ section {
   background: #71706e;
 }
 
-.hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 600;
-}
-
-.hero .btn-watch-video i {
-  color: var(--color-primary);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-.hero .btn-watch-video:hover {
-  color: #fff;
-}
-
-.hero .btn-watch-video:hover i {
-  color: #71706e;
-}
-
-@media (max-width: 640px) {
-  .hero h2 {
-    font-size: 36px;
-    line-height: 1;
+@media (max-width: 1400px) {
+  .hero {
+    min-height: 0;
   }
 
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
+  .hero-section {
+    height: 75vh;
+  }
+
+  .hero-content h2 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    min-height: 0;
+  }
+
+  .hero-section {
+    height: 65vh;
+  }
+
+  .hero-content {
+    padding: 1.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-section {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content {
+    padding: 1rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero .btn-get-started {
     font-size: 14px;
+    padding: 10px 25px;
   }
 }
 
