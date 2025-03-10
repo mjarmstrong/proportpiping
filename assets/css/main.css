@@ -667,7 +667,8 @@ section {
     font-size: 2rem;
   }
 
-  .hero-content p {
+  .hero-content p,
+  .hero-content h5 {
     font-size: 1rem;
   }
 
@@ -699,7 +700,8 @@ section {
     margin-bottom: 1rem;
   }
 
-  .hero-content p {
+  .hero-content p,
+  .hero-content h5 {
     font-size: 0.95rem;
     margin-bottom: 1.5rem;
   }
