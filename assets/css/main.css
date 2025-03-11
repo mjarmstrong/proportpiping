@@ -1004,6 +1004,12 @@ section.about {
   background-color: #f7f9fc;
 }
 
+@media (max-width: 768px) {
+  .features .details {
+    padding: 80px 0;
+  }
+}
+
 .features .details h4 {
   color: var(--color-secondary);
   font-size: 32px;
