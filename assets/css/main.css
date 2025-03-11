@@ -1010,6 +1010,7 @@ section.about {
 
 @media (max-width: 768px) {
   .features .details {
+    margin-top: 40px;
     padding: 80px 0;
   }
 }
