@@ -987,6 +987,7 @@ section.about {
 @media (max-width: 992px) {
   .features .feature-image-wrap img {
     margin-top: 30px;
+    width: 340px;
   }
 }
 
