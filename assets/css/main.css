@@ -980,13 +980,6 @@ section.about {
   right: 0;
 }
 
-@media (max-width: 768px) {
-  .features .feature-image-wrap {
-    position: relative;
-    width: 100%;
-  }
-}
-
 .features .feature-image-wrap img {
   width: 400px;
 }
@@ -995,6 +988,17 @@ section.about {
   .features .feature-image-wrap img {
     margin-top: 30px;
     width: 340px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features .feature-image-wrap {
+    position: relative;
+    width: 100%;
+  }
+
+  .features .feature-image-wrap img {
+    width: 100%;
   }
 }
 
