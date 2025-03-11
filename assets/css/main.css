@@ -993,6 +993,7 @@ section.about {
 
 @media (max-width: 768px) {
   .features .feature-image-wrap {
+    margin-top: 24px;
     position: relative;
     width: 100%;
   }
