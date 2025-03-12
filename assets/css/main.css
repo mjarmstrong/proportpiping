@@ -823,6 +823,12 @@ section {
   color: var(--color-secondary);
 }
 
+@media (max-width: 768px) {
+  .about .content h3 {
+    font-size: 28px;
+  }
+}
+
 .about .content p {
   line-height: 1.75;
   margin: 16px 0;
