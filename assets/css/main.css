@@ -818,7 +818,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   font-family: var(--font-secondary);
   color: var(--color-secondary);
 }
