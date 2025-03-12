@@ -923,6 +923,11 @@ section.about {
   background-size: cover;
 }
 
+.call-to-action.call-to-action--oil-gas {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url("../img/facility-scan-design.png") center center;
+  background-size: cover;
+}
+
 @media (min-width: 1365px) {
   .call-to-action {
     background-attachment: fixed;
