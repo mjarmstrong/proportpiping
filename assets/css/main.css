@@ -732,8 +732,10 @@ section {
   }
 }
 
-.about .img-fluid {
-  height: 100%;
+@media (max-width: 768px) {
+  .about .img-fluid {
+    height: 100%;
+  }
 }
 
 .why-us .img-bg {
