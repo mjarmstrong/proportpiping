@@ -54,12 +54,12 @@ h6 {
 --------------------------------------------------------------*/
 section {
   overflow: hidden;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 @media (max-width: 768px) {
   section {
-    padding: 60px 0;
+    padding: 45px 0;
   }
 }
 
@@ -730,6 +730,10 @@ section {
   .hero-section.oil-gas-section {
     height: 45vh;
   }
+}
+
+.about .img-fluid {
+  height: 100%;
 }
 
 .why-us .img-bg {
