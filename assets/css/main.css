@@ -970,6 +970,12 @@ section.about {
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  .features h3 {
+    font-size: 28px;
+  }
+}
+
 .features .icon-list i {
   margin-right: 10px;
   font-size: 24px;
