@@ -93,6 +93,12 @@ section {
   margin-bottom: 0;
 }
 
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 28px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
