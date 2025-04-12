@@ -56,12 +56,13 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Commercial Construction Services",
+      "@type": ["Service", "ProfessionalService"],
+      "name": "Commercial Construction Layout Services",
       "provider": {
         "@type": "Organization",
         "name": "Proport Design",
-        "url": "https://proportdesign.com"
+        "url": "https://proportdesign.com",
+        "logo": "https://proportdesign.com/assets/img/logo.png"
       },
       "description": "Advanced 3D scanning technology services for commercial construction projects, offering precise measurements and efficient project planning.",
       "areaServed": {
@@ -70,11 +71,43 @@
         "address": {
           "@type": "PostalAddress",
           "addressRegion": "Alberta",
-          "addressCountry": "Canada"
+          "addressCountry": "Canada",
+          "postalCode": "T3B 2K5"
         }
       },
-      "serviceType": "3D Scanning",
-      "category": "Commercial Construction"
+      "serviceType": ["3D Scanning", "Construction Layout"],
+      "category": "Commercial Construction",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Construction Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Vertical High-Rise Layout",
+              "description": "Precise alignment for structural and architectural components"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "HP SitePrint Implementation",
+              "description": "Robotic layout printing for accurate building placement and marking"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Construction Layout Consultation",
+              "description": "Expert guidance in implementing and optimizing layout technologies"
+            }
+          }
+        ]
+      },
+      "image": "https://proportdesign.com/assets/img/commercial-construction-hero.jpg"
     }
   </script>
 

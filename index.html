@@ -58,25 +58,76 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
         "name": "Proport Design",
         "url": "https://proportdesign.com",
         "logo": "https://proportdesign.com/assets/img/logo.png",
+        "image": "https://proportdesign.com/assets/img/logo.png",
         "description": "Leading design company specializing in advanced 3D scanning technology for commercial construction and oil & gas projects.",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "4368 70 St NW",
           "addressLocality": "Calgary",
           "addressRegion": "Alberta",
-          "addressCountry": "Canada"
+          "addressCountry": "Canada",
+          "postalCode": "T3B 2K5"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "51.0875",
+          "longitude": "-114.1571"
         },
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+14034713443",
           "contactType": "customer service",
-          "email": "z.mcneil@proportpiping.com"
+          "email": "z.mcneil@proportpiping.com",
+          "areaServed": ["Calgary", "Alberta", "British Columbia", "Saskatchewan"],
+          "availableLanguage": "English"
         },
-        "sameAs": ["https://www.linkedin.com/in/zachary-mcneil-0ba49686"]
+        "sameAs": ["https://www.linkedin.com/in/zachary-mcneil-0ba49686"],
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "3D Scanning Services",
+          "itemListElement": [
+            {
+              "@type": "Service",
+              "name": "Commercial Construction Layout",
+              "description": "Advanced 3D scanning and layout services for commercial construction projects"
+            },
+            {
+              "@type": "Service",
+              "name": "Oil & Gas Facility Design",
+              "description": "Comprehensive 3D scanning and design services for oil and gas facilities"
+            },
+            {
+              "@type": "Service",
+              "name": "Virtual Site Visits",
+              "description": "Remote site assessments using high-quality 3D scans"
+            }
+          ]
+        },
+        "areaServed": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "51.0875",
+            "longitude": "-114.1571"
+          },
+          "geoRadius": "500000"
+        }
       }
     </script>
 

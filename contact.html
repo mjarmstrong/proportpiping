@@ -56,24 +56,68 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "ContactPage",
+        "@type": ["ContactPage", "WebPage"],
         "name": "Contact Proport Design",
         "description": "Get in touch with Proport Design for advanced 3D scanning solutions in commercial construction and oil & gas projects.",
         "mainEntity": {
           "@type": "Organization",
           "name": "Proport Design",
+          "url": "https://proportdesign.com",
+          "logo": "https://proportdesign.com/assets/img/logo.png",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "4368 70 St NW",
             "addressLocality": "Calgary",
             "addressRegion": "Alberta",
-            "addressCountry": "Canada"
+            "addressCountry": "Canada",
+            "postalCode": "T3B 2K5"
           },
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+14034713443",
-            "contactType": "customer service",
-            "email": "z.mcneil@proportpiping.com"
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+14034713443",
+              "contactType": "sales",
+              "email": "z.mcneil@proportpiping.com",
+              "availableLanguage": "English",
+              "areaServed": ["Calgary", "Alberta", "British Columbia", "Saskatchewan"],
+              "contactOption": ["TollFree", "HearingImpairedSupported"]
+            },
+            {
+              "@type": "ContactPoint",
+              "telephone": "+14034713443",
+              "contactType": "technical support",
+              "email": "z.mcneil@proportpiping.com",
+              "availableLanguage": "English",
+              "areaServed": ["Calgary", "Alberta", "British Columbia", "Saskatchewan"]
+            }
+          ],
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        },
+        "potentialAction": {
+          "@type": "ContactAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "mailto:z.mcneil@proportpiping.com",
+            "inLanguage": "en",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          },
+          "result": {
+            "@type": "Message",
+            "name": "Contact Form Submission"
           }
         }
       }

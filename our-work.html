@@ -56,7 +56,7 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "CollectionPage",
+        "@type": ["CollectionPage", "CreativeWork"],
         "name": "Our Work - Project Portfolio",
         "description": "Portfolio of successful projects by Proport Design showcasing advanced 3D scanning technology in commercial construction and oil & gas sectors.",
         "publisher": {
@@ -64,7 +64,43 @@
           "name": "Proport Design",
           "url": "https://proportdesign.com",
           "logo": "https://proportdesign.com/assets/img/logo.png"
-        }
+        },
+        "mainEntity": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "CreativeWork",
+              "position": 1,
+              "name": "Calgary Tower Project",
+              "description": "Vertical high-rise layout and 3D scanning for precise structural alignment",
+              "image": "https://proportdesign.com/assets/img/portfolio/construction-1.jpg",
+              "category": "Construction"
+            },
+            {
+              "@type": "CreativeWork",
+              "position": 2,
+              "name": "Alberta Refinery Expansion",
+              "description": "Comprehensive facility scanning and design optimization",
+              "image": "https://proportdesign.com/assets/img/portfolio/oil-gas-1.jpg",
+              "category": "Oil & Gas"
+            },
+            {
+              "@type": "CreativeWork",
+              "position": 3,
+              "name": "Industrial Complex Mapping",
+              "description": "Detailed 3D scanning for facility modernization",
+              "image": "https://proportdesign.com/assets/img/portfolio/scanning-1.jpg",
+              "category": "3D Scanning"
+            }
+          ]
+        },
+        "about": {
+          "@type": "Thing",
+          "name": "3D Scanning Projects",
+          "description": "Showcase of successful 3D scanning implementations across construction and oil & gas industries"
+        },
+        "keywords": "3D scanning, construction layout, oil and gas facility design, industrial mapping, facility modernization, structural alignment",
+        "image": ["https://proportdesign.com/assets/img/portfolio/construction-1.jpg", "https://proportdesign.com/assets/img/portfolio/oil-gas-1.jpg", "https://proportdesign.com/assets/img/portfolio/scanning-1.jpg"]
       }
     </script>
 
@@ -100,7 +136,7 @@
 
       .filter-button:hover,
       .filter-button.active {
-        background: #926F16;
+        background: #926f16;
         color: white;
       }
 
@@ -109,7 +145,7 @@
         position: relative;
         overflow: hidden;
         border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
       }
 
       .portfolio-item img {
@@ -129,7 +165,7 @@
         left: 0;
         right: 0;
         padding: 20px;
-        background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 70%, transparent 100%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 70%, transparent 100%);
         color: white;
         transform: translateY(100%);
         transition: transform 0.3s ease;
@@ -168,17 +204,17 @@
       .portfolio-links a {
         width: 40px;
         height: 40px;
-        background: rgba(255,255,255,0.9);
+        background: rgba(255, 255, 255, 0.9);
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #926F16;
+        color: #926f16;
         transition: all 0.3s ease;
       }
 
       .portfolio-links a:hover {
-        background: #926F16;
+        background: #926f16;
         color: white;
       }
     </style>
@@ -232,7 +268,7 @@
             <!-- Construction Project 1 -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div class="position-relative h-100">
-                <img src="assets/img/portfolio/construction-1.jpg" class="img-fluid" alt="High-rise construction project" loading="lazy">
+                <img src="assets/img/portfolio/construction-1.jpg" class="img-fluid" alt="High-rise construction project" loading="lazy" />
                 <div class="portfolio-info">
                   <h4>Calgary Tower Project</h4>
                   <p>Vertical high-rise layout and 3D scanning for precise structural alignment</p>
@@ -247,7 +283,7 @@
             <!-- Oil & Gas Project 1 -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-oil-gas">
               <div class="position-relative h-100">
-                <img src="assets/img/portfolio/oil-gas-1.jpg" class="img-fluid" alt="Oil facility scanning project" loading="lazy">
+                <img src="assets/img/portfolio/oil-gas-1.jpg" class="img-fluid" alt="Oil facility scanning project" loading="lazy" />
                 <div class="portfolio-info">
                   <h4>Alberta Refinery Expansion</h4>
                   <p>Comprehensive facility scanning and design optimization</p>
@@ -262,13 +298,73 @@
             <!-- 3D Scanning Project -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-scanning">
               <div class="position-relative h-100">
-                <img src="assets/img/portfolio/scanning-1.jpg" class="img-fluid" alt="3D scanning project" loading="lazy">
+                <img src="assets/img/portfolio/scanning-1.jpg" class="img-fluid" alt="3D scanning project" loading="lazy" />
                 <div class="portfolio-info">
                   <h4>Industrial Complex Mapping</h4>
                   <p>Detailed 3D scanning for facility modernization</p>
                 </div>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/scanning-1.jpg" class="glightbox" title="Industrial Complex Mapping"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Oil & Gas Project 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-oil-gas">
+              <div class="position-relative h-100">
+                <img src="assets/img/portfolio/oil-gas-scan-1.png" class="img-fluid" alt="Oil facility scanning project" loading="lazy" />
+                <div class="portfolio-info">
+                  <h4>Oil facility scanning project</h4>
+                  <p>Comprehensive facility scanning and design optimization</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/oil-gas-scan-1.png" class="glightbox" title="Oil facility scanning project"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Oil & Gas Project 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-oil-gas">
+              <div class="position-relative h-100">
+                <img src="assets/img/portfolio/oil-gas-scan-2.png" class="img-fluid" alt="Oil facility scanning project" loading="lazy" />
+                <div class="portfolio-info">
+                  <h4>Oil facility scanning project</h4>
+                  <p>Comprehensive facility scanning and design optimization</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/oil-gas-scan-2.png" class="glightbox" title="Oil facility scanning project"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Oil & Gas Project 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-oil-gas">
+              <div class="position-relative h-100">
+                <img src="assets/img/portfolio/oil-gas-scan-3.png" class="img-fluid" alt="Oil facility scanning project" loading="lazy" />
+                <div class="portfolio-info">
+                  <h4>Oil facility scanning project</h4>
+                  <p>Comprehensive facility scanning and design optimization</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/oil-gas-scan-3.png" class="glightbox" title="Oil facility scanning project"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Oil & Gas Project 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-oil-gas">
+              <div class="position-relative h-100">
+                <img src="assets/img/portfolio/oil-gas-scan-4.png" class="img-fluid" alt="Oil facility scanning project" loading="lazy" />
+                <div class="portfolio-info">
+                  <h4>Oil facility scanning project</h4>
+                  <p>Comprehensive facility scanning and design optimization</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/oil-gas-scan-4.png" class="glightbox" title="Oil facility scanning project"><i class="bi bi-zoom-in"></i></a>
                   <a href="#" title="More Details"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -312,7 +408,8 @@
                 <p>Proport Design empowers clients to optimize asset management, reduce project costs, and enhance safety measures.</p>
               </div>
               <div class="copyright mt-5">
-                &copy; Copyright <strong><span id="copyright-year">2024</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span id="copyright-year">2024</span></strong
+                >. All Rights Reserved
               </div>
             </div>
             <div class="col-lg-3 offset-lg-1 col-md-12 footer-contact">
@@ -321,7 +418,8 @@
                 <span itemprop="streetAddress">4368 70 St NW</span><br />
                 <span itemprop="addressLocality">Calgary</span>, <span itemprop="addressRegion">Alberta</span>, Canada
               </div>
-              <strong>Phone:</strong> <span itemprop="telephone"><a href="tel:+14034713443">403.471.3443</a></span><br />
+              <strong>Phone:</strong> <span itemprop="telephone"><a href="tel:+14034713443">403.471.3443</a></span
+              ><br />
               <strong>Email:</strong> <span itemprop="email"><a href="mailto:z.mcneil@proportpiping.com">z.mcneil@proportpiping.com</a></span>
               <div class="social-links d-flex mt-3 justify-content-xxxl-center">
                 <a href="https://www.linkedin.com/in/zachary-mcneil-0ba49686/?originalSubdomain=ca" class="social-icon social-icon--linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -349,43 +447,43 @@
     <script src="assets/js/main.js" defer></script>
     <script>
       // Update copyright year automatically
-      document.getElementById('copyright-year').textContent = new Date().getFullYear();
+      document.getElementById("copyright-year").textContent = new Date().getFullYear();
 
       // Initialize GLightbox
       const lightbox = GLightbox({
-        selector: '.glightbox',
+        selector: ".glightbox",
         touchNavigation: true,
         loop: true,
-        autoplayVideos: true
+        autoplayVideos: true,
       });
 
       // Portfolio filtering
-      document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener("DOMContentLoaded", function () {
         let iso;
-        imagesLoaded('.portfolio-grid', function() {
-          iso = new Isotope('.portfolio-grid .row', {
-            itemSelector: '.portfolio-item',
-            layoutMode: 'fitRows'
+        imagesLoaded(".portfolio-grid", function () {
+          iso = new Isotope(".portfolio-grid .row", {
+            itemSelector: ".portfolio-item",
+            layoutMode: "fitRows",
           });
         });
 
-        document.querySelector('.portfolio-filters').addEventListener('click', function(e) {
-          if (e.target.classList.contains('filter-button')) {
-            const filterValue = e.target.getAttribute('data-filter');
-            
+        document.querySelector(".portfolio-filters").addEventListener("click", function (e) {
+          if (e.target.classList.contains("filter-button")) {
+            const filterValue = e.target.getAttribute("data-filter");
+
             // Update active state
-            document.querySelectorAll('.filter-button').forEach(btn => btn.classList.remove('active'));
-            e.target.classList.add('active');
+            document.querySelectorAll(".filter-button").forEach((btn) => btn.classList.remove("active"));
+            e.target.classList.add("active");
 
             // Filter items
-            if (filterValue === 'all') {
-              iso.arrange({filter: '*'});
+            if (filterValue === "all") {
+              iso.arrange({ filter: "*" });
             } else {
-              iso.arrange({filter: `.filter-${filterValue}`});
+              iso.arrange({ filter: `.filter-${filterValue}` });
             }
           }
         });
       });
     </script>
   </body>
-</html> 
+</html>

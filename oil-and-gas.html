@@ -57,25 +57,71 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Oil & Gas Services",
+      "@type": ["Service", "ProfessionalService"],
+      "name": "Oil & Gas Facility Design Services",
       "provider": {
         "@type": "Organization",
         "name": "Proport Design",
-        "url": "https://proportdesign.com"
+        "url": "https://proportdesign.com",
+        "logo": "https://proportdesign.com/assets/img/logo.png"
       },
-      "description": "Advanced 3D scanning technology services for oil & gas facilities, offering precise measurements and efficient project execution.",
+      "description": "Advanced 3D scanning and facility design services for oil & gas facilities, offering precise measurements, virtual site visits, and efficient project execution.",
       "areaServed": {
         "@type": "City",
         "name": "Calgary",
         "address": {
           "@type": "PostalAddress",
           "addressRegion": "Alberta",
-          "addressCountry": "Canada"
+          "addressCountry": "Canada",
+          "postalCode": "T3B 2K5"
         }
       },
-      "serviceType": "3D Scanning",
-      "category": "Oil & Gas"
+      "serviceType": ["3D Scanning", "Facility Design", "Virtual Site Visits"],
+      "category": "Oil & Gas",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Oil & Gas Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Site Scanning and Virtual Visits",
+              "description": "5k scan photos for remote site assessments and evaluations"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Piping Design and Error Elimination",
+              "description": "3D point cloud modeling for conflict resolution and precise measurements"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Data Hosting and Sharing",
+              "description": "Secure cloud-based point cloud data sharing and collaboration"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Technical Drafting",
+              "description": "Structural detailing, P&IDs, and fabrication isometrics"
+            }
+          }
+        ]
+      },
+      "image": "https://proportdesign.com/assets/img/oil-gas-hero.jpg",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Industry",
+        "value": "Oil & Gas"
+      }
     }
   </script>
 
