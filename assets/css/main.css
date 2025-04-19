@@ -753,6 +753,8 @@ section {
 @media (min-width: 768px) {
   .about .img-fluid {
     height: 100%;
+    object-fit: cover;
+    width: auto;
   }
 }
 
