@@ -55,60 +55,16 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": ["Organization", "ProfessionalService"],
-        "name": "Proport Design",
-        "url": "https://proportdesign.com",
-        "logo": "https://proportdesign.com/assets/img/logo.png",
-        "description": "Leading design company specializing in advanced 3D scanning technology for commercial construction and oil & gas projects.",
-        "foundingDate": "2010",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "4368 70 St NW",
-          "addressLocality": "Calgary",
-          "addressRegion": "Alberta",
-          "addressCountry": "Canada",
-          "postalCode": "T3B 2K5"
-        },
-        "founder": {
-          "@type": "Person",
-          "name": "Zachary McNeil",
-          "jobTitle": "Founder & CEO",
-          "description": "Industry expert with 14+ years of experience in pipefitting and construction technology",
-          "image": "https://proportdesign.com/assets/img/Zachary-McNeil.jpg",
-          "sameAs": ["https://www.linkedin.com/in/zachary-mcneil-0ba49686"]
-        },
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+14034713443",
-          "contactType": "customer service",
-          "email": "z.mcneil@proportpiping.com",
-          "availableLanguage": "English"
-        },
-        "areaServed": ["Calgary", "Alberta", "British Columbia", "Saskatchewan"],
-        "knowsAbout": ["3D Laser Scanning", "Construction Layout", "Oil & Gas Facility Design", "BIM (Building Information Modeling)", "Pipefitting", "Virtual Site Visits"],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Core Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Commercial Construction Layout",
-                "description": "Advanced layout services for high-rise and commercial projects"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Oil & Gas Facility Design",
-                "description": "Comprehensive 3D scanning and design services for oil and gas facilities"
-              }
-            }
-          ]
-        },
-        "sameAs": ["https://www.linkedin.com/in/zachary-mcneil-0ba49686"]
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://proportdesign.com/#website",
+            "url": "https://proportdesign.com/",
+            "name": "Proport Design",
+            "description": "Proport Design offers Oil & Gas 3D scanning solutions and Construction Layout Robot Service",
+            "inLanguage": "en-US"
+          }
+        ]
       }
     </script>
 
