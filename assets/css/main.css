@@ -992,17 +992,15 @@ section.about {
   background: var(--color-primary);
 }
 
-.video-wrapper,
-.video-wrapper iframe {
+.video-wrapper {
   height: 100%;
   min-height: 300px;
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  .video-wrapper,
-  .video-wrapper iframe {
-    height: 360px;
+  .video-wrapper {
+    height: 480px;
     width: 640px;
   }
 }

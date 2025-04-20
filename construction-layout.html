@@ -79,6 +79,59 @@
 
       gtag("config", "G-QFZMJ12S53");
     </script>
+
+    <style>
+      /* Video Wrapper Styles */
+      .video-wrapper {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .video-wrapper img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .video-wrapper a {
+        position: relative;
+        display: block;
+      }
+
+      .video-wrapper a::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        transition: background 0.3s ease;
+      }
+
+      .video-wrapper a::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ffffff"><path d="M8 5v14l11-7z"/></svg>') no-repeat center center;
+        background-size: contain;
+        transition: transform 0.3s ease;
+      }
+
+      .video-wrapper a:hover::before {
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .video-wrapper a:hover::after {
+        transform: translate(-50%, -50%) scale(1.1);
+      }
+    </style>
   </head>
 
   <body class="page-commercial-construction">
@@ -151,7 +204,7 @@
                 </div>
                 <div class="video-wrapper">
                   <a href="https://www.youtube.com/watch?v=Kyc9vn7YwLE" class="glightbox" data-type="video" aria-label="Play video: HP SitePrint with HOAR Construction">
-                    <img src="https://img.youtube.com/vi/Kyc9vn7YwLE/hqdefault.jpg" alt="Thumbnail for HP SitePrint with HOAR Construction" width="640" height="480" loading="lazy" />
+                    <img src="https://img.youtube.com/vi/Kyc9vn7YwLE/maxresdefault.jpg" alt="Thumbnail for HP SitePrint with HOAR Construction" width="1280" height="720" loading="lazy" />
                   </a>
                 </div>
               </div>
