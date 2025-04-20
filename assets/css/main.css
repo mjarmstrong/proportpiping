@@ -889,6 +889,10 @@ section.about {
 /*--------------------------------------------------------------
 # Services List Section
 --------------------------------------------------------------*/
+.services-list p.h5 {
+  line-height: 1.4;
+}
+
 .services-list .service-item {
   position: relative;
 }
