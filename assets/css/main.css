@@ -701,11 +701,12 @@ section {
   }
 
   .hero-section.commercial-section {
-    height: 50vh;
+    height: 54vh;
+    padding-top: 24px;
   }
 
   .hero-section.oil-gas-section {
-    height: 48vh;
+    height: 46vh;
   }
 
   .hero-section.commercial-section .hero-content {
