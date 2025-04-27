@@ -1005,7 +1005,6 @@ section.about {
 
 @media (min-width: 768px) {
   .video-wrapper {
-    height: 480px;
     width: 640px;
   }
 }
