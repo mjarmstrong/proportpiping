@@ -9,26 +9,26 @@
   <url>
     <loc>https://proportdesign.com/site-layout.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://proportdesign.com/oil-and-gas.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://proportdesign.com/who-we-are.html</loc>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proportdesign.com/our-work.html</loc>
     <changefreq>yearly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://proportdesign.com/contact.html</loc>
     <changefreq>yearly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.60</priority>
   </url>
 </urlset>
