@@ -11,5 +11,6 @@ Disallow: /wp-login.php
 Disallow: /login/
 Disallow: /logout/
 Disallow: /search/
+Disallow: /commercial-construction.html
 
 Sitemap: https://proportdesign.com/sitemap.xml
