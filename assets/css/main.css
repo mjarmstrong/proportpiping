@@ -45,7 +45,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.h2,
+.h3,
+.h4 {
   font-family: var(--font-primary);
 }
 
@@ -1015,15 +1018,19 @@ section.about {
   padding-bottom: 0;
 }
 
-.features h3 {
+.features .h3 {
   color: var(--color-secondary);
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
+.features .h6 {
+  line-height: 1.45;
+}
+
 @media (max-width: 768px) {
-  .features h3 {
+  .features .h3 {
     font-size: 28px;
   }
 }
