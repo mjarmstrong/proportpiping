@@ -605,7 +605,7 @@ section {
 /* Mobile override */
 @media (max-width: 767px) {
   .hero-bg.hero-bg--commercial {
-    background-image: url("/assets/img/commercial-construction-hero-mobile.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/img/commercial-construction-hero-mobile.webp") center/cover;
   }
 }
 
@@ -616,7 +616,7 @@ section {
 /* Mobile override */
 @media (max-width: 767px) {
   .hero-bg.hero-bg--oil-gas {
-    background-image: url("/assets/img/oil-gas-hero-mobile.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/img/oil-gas-hero-mobile.webp") center/cover;
   }
 }
 
@@ -1145,42 +1145,6 @@ section.about {
 }
 
 /*--------------------------------------------------------------
-# Services Cards Section
---------------------------------------------------------------*/
-.services-cards {
-  background: #f7f9fc;
-}
-
-.services-cards .card-item {
-  border: 1px solid rgba(27, 47, 69, 0.1);
-  background: #fff;
-  position: relative;
-  border-radius: 0;
-}
-
-.services-cards .card-item .card-bg {
-  min-height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.services-cards .card-item .card-body {
-  padding: 30px;
-}
-
-.services-cards .card-item h4 {
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 15px;
-  color: var(--color-secondary);
-}
-
-.services-cards .card-item p {
-  color: var(--color-secondary);
-  margin: 0;
-}
-
-/*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
 .portfolio .portfolio-flters {
@@ -1277,68 +1241,6 @@ section.about {
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 20px;
-}
-
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid var(--color-primary);
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
-}
-
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(27, 47, 69, 0.1);
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #d6e2ef;
-}
-
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: var(--color-secondary);
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
 }
 
 /*--------------------------------------------------------------
