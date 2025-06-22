@@ -660,7 +660,8 @@ section {
   margin-bottom: 2rem;
 }
 
-.hero .btn-get-started {
+.hero .btn-get-started,
+.php-email-form .btn-get-started {
   font-family: var(--font-secondary);
   font-weight: 500;
   font-size: 16px;
@@ -673,7 +674,8 @@ section {
   background: var(--color-primary);
 }
 
-.hero .btn-get-started:hover {
+.hero .btn-get-started:hover,
+.php-email-form .btn-get-started:hover {
   background: #71706e;
 }
 
