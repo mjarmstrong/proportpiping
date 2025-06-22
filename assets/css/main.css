@@ -600,7 +600,7 @@ section {
 
 .hero-bg.hero-bg--commercial {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/img/commercial-construction-hero-mobile.webp") center/cover;
-  max-height: 54vh;
+  max-height: 55vh;
 }
 
 @media (min-width: 768px) {
@@ -612,7 +612,7 @@ section {
 
 .hero-bg.hero-bg--oil-gas {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/img/oil-gas-hero-mobile.webp") center/cover;
-  max-height: 46vh;
+  max-height: 45vh;
 }
 
 @media (min-width: 768px) {
