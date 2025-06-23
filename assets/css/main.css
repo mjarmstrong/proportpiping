@@ -612,7 +612,7 @@ section {
 
 .hero-bg.hero-bg--oil-gas {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/img/oil-gas-hero-mobile.webp") center/cover;
-  max-height: 45vh;
+  max-height: 55vh;
 }
 
 @media (min-width: 768px) {
